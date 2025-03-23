@@ -9,8 +9,14 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col">
-          
+        <div class="col-md-6 offset-md-3">
+          <h2>Login</h2>
+          <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="nome@email.com"><label for="floatingInput">Email</label>
+          </div>
+          <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Senha"><label for="floatingPassword">Senha</label>
+          </div> 
         </div>
       </div>
     </div>
