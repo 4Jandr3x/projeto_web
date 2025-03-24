@@ -1,8 +1,62 @@
-body {
-  background-color: #1c2833;
-  color: #f0f3f4;
+body{
+    background-color: #212f3d;
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 20px;
 }
 
-.myForm {
+.consulta-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    }
+
+.delete-btn {
+    background-color: red;
+    border-radius: 10px;
+   }
+
+.titulo {
  margin-top: 30px;
+ margin-bottom: 20px;
+ text-align: center;
+ background-color: #34495e;
+ color: #f0f3f4;
+ border-radius: 10px;
+}
+
+
+.myForm {
+ color:#000;
+}
+
+
+.emFormConf {
+    text-decoration: none;
+    color: #58d68d;
+    font-size: 11px;
+}
+
+.emFormConf:hover {
+    text-decoration: underline;
+    color: #f0f3f4;
+    font-size: 11px;
+}
+
+.sair{
+    text-decoration: none;
+    color: #e74c3c;
 }
